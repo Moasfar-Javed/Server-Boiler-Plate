@@ -49,4 +49,5 @@ Finally start the server using nodemon (already installed)
 
     1. You would need to change your database name and user to your application specific needs.
     2. You would need to uncomment the .env section in the .gitignore file to avoid exposing sensitive data.
-    3. To enable the HTTPS server, you need to uncomment the lines in index.mjs when you have you SSL certificate.
+    3. To enable the HTTPS server, you need to uncomment the lines in index.mjs when you have your SSL certificate.
+    4. If you are using any SQL database it is better to include a models folder as well.
